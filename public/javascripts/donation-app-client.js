@@ -146,7 +146,6 @@ $('#donor-details').hide();
 braintree.dropin.create({
   // Insert your tokenization key here
   authorization: '<use_your_tokenization_key>',
-  // authorization: 'sandbox_v2fxhc62_r6nz9yyt339w2w9yw',
   container: '#dropin-container'
 }, function (createErr, instance) {
   if (!createErr) {
